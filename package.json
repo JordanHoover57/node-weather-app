@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/JordanHoover57/node-weather-app/issues"
   },
-  "homepage": "https://github.com/JordanHoover57/node-weather-app#readme"
+  "homepage": "https://github.com/JordanHoover57/node-weather-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
 }
