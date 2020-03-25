@@ -5,9 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start":"node server.js"
+    "start": "node server.js",
+    "build": "webpack"
   },
-  "keywords":[
+  "keywords": [
     "example",
     "heroku"
   ],
@@ -28,7 +29,7 @@
     "jest": "^25.1.0",
     "request": "^2.88.2"
   },
-  "engines":{
-    "node":"10.15.3"
+  "engines": {
+    "node": "10.15.3"
   }
 }
