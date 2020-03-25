@@ -2,10 +2,15 @@
   "name": "simple-nodejs-weather-app",
   "version": "1.0.0",
   "description": "Simple nose.js weather app for learning",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start":"node server.js"
   },
+  "keywords":[
+    "example",
+    "heroku"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JordanHoover57/node-weather-app.git"
@@ -22,5 +27,8 @@
     "express": "^4.17.1",
     "jest": "^25.1.0",
     "request": "^2.88.2"
+  },
+  "engines":{
+    "node":"10.15.3"
   }
 }
